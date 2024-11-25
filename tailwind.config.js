@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'sign-up-bg': "url('/public/images/bg-img.jpg')",
+      },
+    },
     screens: {
       sx: '420px',
       sm: '640px',
